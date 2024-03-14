@@ -1,0 +1,8 @@
+[2024-03-14 02:34:33] [1] [INFO] TEST [Default test - testNewsSearch] STARTED at [08:04:33 2024-03-14]
+[2024-03-14 02:34:33] [1] [INFO] Starting driver session...
+[2024-03-14 02:34:36] [1] [INFO] Driver session started.
+[2024-03-14 02:34:36] [1] [INFO] INFO: opening url 'https://www.gsmarena.com'
+[2024-03-14 02:35:00] [1] [INFO] PASS: element 'newsLink' is clicked.
+[2024-03-14 02:35:02] [1] [INFO] PASS: keys 'iphone' are sent to element 'searchTextField'.
+[2024-03-14 02:35:06] [1] [INFO] PASS: element 'searchButton' is clicked.
+[2024-03-14 02:35:15] [1] [INFO] TEST [Default test - testNewsSearch] PASSED at [08:05:15 2024-03-14]

@@ -1,0 +1,10 @@
+[2024-03-14 02:33:32] [1] [INFO] TEST [Default test - testModelSpecs] STARTED at [08:03:32 2024-03-14]
+[2024-03-14 02:33:32] [1] [INFO] Starting driver session...
+[2024-03-14 02:33:35] [1] [INFO] Driver session started.
+[2024-03-14 02:33:35] [1] [INFO] INFO: opening url 'https://www.gsmarena.com'
+[2024-03-14 02:34:06] [1] [INFO] selecting 'Samsung' brand...
+[2024-03-14 02:34:06] [1] [INFO] currentBrand: PHONE FINDER
+[2024-03-14 02:34:06] [1] [INFO] currentBrand: SAMSUNG
+[2024-03-14 02:34:17] [1] [INFO] PASS: element 'brandLinks1' is clicked.
+[2024-03-14 02:34:28] [1] [INFO] PASS: element 'modelLink' is clicked.
+[2024-03-14 02:34:31] [1] [INFO] TEST [Default test - testModelSpecs] PASSED at [08:04:31 2024-03-14]

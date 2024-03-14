@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TEST [Default test - testCompareModels] FAILED at [08:03:29 2024-03-14] - The following asserts failed:
+expected [2023, February 29] but found [2023, February 01]
+
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+com.mycompany.carina.demo.WebSampleTest.testCompareModels(WebSampleTest.java:82)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-14T08:01:12 IST" name="Default suite" finished-at="2024-03-14T08:05:16 IST" duration-ms="244299">
+    <groups>
+    </groups>
+    <test started-at="2024-03-14T08:01:12 IST" name="Default test" finished-at="2024-03-14T08:05:16 IST" duration-ms="244299">
+      <class name="com.mycompany.carina.demo.WebSampleTest">
+        <test-method signature="testBrandGroup()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:01:12 IST" name="testBrandGroup" finished-at="2024-03-14T08:02:22 IST" duration-ms="69536" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBrandGroup -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:02:23 IST" name="onCarinaAfterMethod" finished-at="2024-03-14T08:02:23 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="testCompareModels()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:02:23 IST" name="testCompareModels" finished-at="2024-03-14T08:03:28 IST" duration-ms="64123" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [2023, February 29] but found [2023, February 01]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [2023, February 29] but found [2023, February 01]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at com.mycompany.carina.demo.WebSampleTest.testCompareModels(WebSampleTest.java:82)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TEST [Default test - testCompareModels] FAILED at [08:03:29 2024-03-14] - The following asserts failed:
+expected [2023, February 29] but found [2023, February 01]
+
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+com.mycompany.carina.demo.WebSampleTest.testCompareModels(WebSampleTest.java:82)
+java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+java.base/java.lang.reflect.Method.invoke(Method.java:580)
+org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+org.testng.TestRunner.privateRun(TestRunner.java:829)
+org.testng.TestRunner.run(TestRunner.java:602)
+org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+org.testng.SuiteRunner.run(SuiteRunner.java:330)
+org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+org.testng.TestNG.runSuites(TestNG.java:1099)
+org.testng.TestNG.run(TestNG.java:1067)
+org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCompareModels -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:03:30 IST" name="onCarinaAfterMethod" finished-at="2024-03-14T08:03:30 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="testModelSpecs()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:03:31 IST" name="testModelSpecs" finished-at="2024-03-14T08:04:31 IST" duration-ms="59708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testModelSpecs -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:04:31 IST" name="onCarinaAfterMethod" finished-at="2024-03-14T08:04:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+        <test-method signature="testNewsSearch()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:04:32 IST" name="testNewsSearch" finished-at="2024-03-14T08:05:15 IST" duration-ms="42924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNewsSearch -->
+        <test-method is-config="true" signature="onCarinaAfterMethod()[pri:0, instance:com.mycompany.carina.demo.WebSampleTest@38f1f6c9]" started-at="2024-03-14T08:05:16 IST" name="onCarinaAfterMethod" finished-at="2024-03-14T08:05:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onCarinaAfterMethod -->
+      </class> <!-- com.mycompany.carina.demo.WebSampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

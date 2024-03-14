@@ -1,0 +1,69 @@
+[2024-03-14 02:31:02] [1] [INFO] 
+============= Basic configuration =============
+env=DEMO
+============= Azure configuration =============
+azure_account_name=akumbhare@parkar.digital
+azure_blob_url=https://akumbhare@parkar.digital.blob.core.windows.net
+azure_access_key_token=*****
+azure_local_storage=LRS
+=========== Encryptor configuration ===========
+crypto_key_value=*****
+=========== WebDriver configuration ===========
+url=https://www.gsmarena.com
+selenium_url=http://192.168.1.7:4444/wd/hub
+auto_screenshot=true
+localization_encoding=UTF-8
+language=en_US
+-------------- Driver capabilities ------------
+browserName=chrome
+===============================================
+
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 9 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[2024-03-14 02:31:08] [1] [INFO] [TestNG] Running:
+  C:\Users\amol.kumbhare\AppData\Local\Temp\testng-eclipse-1988336158\testng-customsuite.xml
+
+[2024-03-14 02:31:10] [1] [INFO] Set thread-count=1
+[2024-03-14 02:31:10] [1] [INFO] Set data-provider-thread-count=1
+[2024-03-14 02:31:12] [1] [INFO] CARINA_CORE_VERSION: 1.1.3
+[2024-03-14 02:31:12] [1] [INFO] [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+[2024-03-14 02:35:17] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2024-03-14 02:35:17] [1] [INFO] RESULT #1: TEST [Default test - testBrandGroup] PASS [screenshots=file://C:\Carina\project-qa\.\reports\1710383462099/047a3996-7661-4af9-9759-73e92b7c0d03/report.html | log=file://C:\Carina\project-qa\.\reports\1710383462099/047a3996-7661-4af9-9759-73e92b7c0d03/test.log]
+[2024-03-14 02:35:17] [1] [INFO] RESULT #2: TEST [Default test - testCompareModels] FAIL [screenshots=file://C:\Carina\project-qa\.\reports\1710383462099/39ecb294-badb-43bb-805d-e49ae996cd71/report.html | log=file://C:\Carina\project-qa\.\reports\1710383462099/39ecb294-badb-43bb-805d-e49ae996cd71/test.log]
+[2024-03-14 02:35:17] [1] [INFO] RESULT #3: TEST [Default test - testModelSpecs] PASS [screenshots=file://C:\Carina\project-qa\.\reports\1710383462099/dc625415-a117-4c54-89cf-dba04be1254f/report.html | log=file://C:\Carina\project-qa\.\reports\1710383462099/dc625415-a117-4c54-89cf-dba04be1254f/test.log]
+[2024-03-14 02:35:17] [1] [INFO] RESULT #4: TEST [Default test - testNewsSearch] PASS [screenshots=file://C:\Carina\project-qa\.\reports\1710383462099/a37ad87e-8464-4ff6-88af-ef07458f45b8/report.html | log=file://C:\Carina\project-qa\.\reports\1710383462099/a37ad87e-8464-4ff6-88af-ef07458f45b8/test.log]
+[2024-03-14 02:35:18] [1] [INFO] [TestNG] Time taken by org.testng.internal.ExitCodeListener@6f3bd0e1: 0 ms
+[2024-03-14 02:35:18] [1] [INFO] [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@33ce57f4: 120 ms
+[2024-03-14 02:35:18] [1] [INFO] [TestNG] Time taken by org.testng.reporters.jq.Main@72883ae0: 72 ms
+[2024-03-14 02:35:18] [1] [INFO] [TestNG] Time taken by org.testng.reporters.FailedReporter@3ae47f4f: 17 ms
+[2024-03-14 02:35:18] [1] [INFO] [TestNG] Time taken by org.testng.reporters.XMLReporter@6f056fdf: 10 ms
+[2024-03-14 02:35:18] [1] [INFO] [TestNG] Time taken by org.testng.reporters.EmailableReporter2@4cf973ec: 9 ms
+[2024-03-14 02:35:18] [1] [INFO] [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2303832d: 9 ms

@@ -1,0 +1,7 @@
+[2024-03-14 02:31:13] [1] [INFO] TEST [Default test - testBrandGroup] STARTED at [08:01:13 2024-03-14]
+[2024-03-14 02:31:13] [1] [INFO] Starting driver session...
+[2024-03-14 02:31:28] [1] [INFO] Driver session started.
+[2024-03-14 02:31:29] [1] [INFO] INFO: opening url 'https://www.gsmarena.com'
+[2024-03-14 02:31:55] [1] [INFO] PASS: element 'allBrandsButton' is clicked.
+[2024-03-14 02:32:06] [1] [INFO] PASS: element 'ExtendedWebElement - [52]' is clicked.
+[2024-03-14 02:32:22] [1] [INFO] TEST [Default test - testBrandGroup] PASSED at [08:02:22 2024-03-14]

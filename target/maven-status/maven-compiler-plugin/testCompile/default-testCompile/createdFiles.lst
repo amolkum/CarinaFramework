@@ -1,0 +1,9 @@
+com\mycompany\carina\demo\steps\APIBasicTest.class
+com\mycompany\carina\demo\PetSwaggerAPIGetTest$APISampleTest.class
+com\mycompany\carina\demo\ProxySampleTest.class
+com\mycompany\carina\demo\WebSampleTest.class
+com\mycompany\carina\demo\steps\Hooks.class
+com\mycompany\carina\demo\testrunner\CucumberWebSampleTest.class
+com\mycompany\carina\demo\PetSwaggerAPIGetTest.class
+com\mycompany\carina\demo\ParkarDigitalTest.class
+com\mycompany\carina\demo\steps\ParkarContactUsTest.class
